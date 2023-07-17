@@ -1,0 +1,19 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.label {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.input {
+  border-radius: 10px;
+  padding: 10px;
+  width: 250px;
+  border: 1px solid transparent;
+}
+.input:focus {
+  border: 1px solid transparent;
+  outline: none;
+}
